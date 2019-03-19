@@ -8,19 +8,8 @@ import {Link} from 'react-router-dom'
 import Single from './Single'
 
 class Main extends Component {
-    // constructor() {
-    //     // super should only be used for intialization
-    //     super()
-        
-    // }
-
-    componentDidMount() {
-        //this.props.dispatch(removePost(1))
-        //this.props.removePost(1)
-    }
 
     render() {
-        //console.log(this.props)
         return <div>
                     <h1>
                         <Link to="/">Photowall</Link>

@@ -16,7 +16,6 @@ class Comments extends Component {
 
     render() {
         console.log(this.props.comments)
-        //this.props.addComment
         if(this.props.comments)
         return <div className="comment">
         {
